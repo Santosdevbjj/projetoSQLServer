@@ -24,6 +24,29 @@ Você precisará realizar 12 consultas ao banco de dados, cada uma retornando um
 
 
 
+**As tabelas são descritas conforme a seguir:**
+
+**Filmes**
+
+Tabela responsável por armazenar informações dos filmes.
+
+**Atores**
+
+Tabela responsável por armazenar informações dos atores.
+
+**Generos**
+
+Tabela responsável por armazenar os gêneros dos gêneros.
+
+**ElencoFilme**
+
+Tabela responsável por representar um relacionamento do tipo muitos para muitos entre filmes e atores, ou seja, um ator pode trabalhar em muitos filmes, e filmes podem ter muitos atores.
+
+**FilmesGenero**
+
+Tabela responsável por representar um relacionamento do tipo muitos para muitos entre filmes e gêneros, ou seja, um filme pode ter mais de um gênero, e um gênero pode fazer parte de muitos filmes. 
+
+
 
 
 
